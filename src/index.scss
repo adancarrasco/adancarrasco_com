@@ -1,0 +1,175 @@
+/*GENERAL CLASSES AND STYLES*/
+a {
+  color: #000;
+  font-weight: bold;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.inline-block {
+  display: inline-block;
+}
+.fixed {
+  position: fixed;
+}
+.absolute {
+  position: absolute;
+}
+.c-white {
+  color: #fff;
+}
+body {
+  font-family: 'Quattrocento Sans', 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.45;
+  font-weight: 200;
+  color: rgb(85, 85, 85);
+}
+header {
+  height: 60px;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+// Header
+.header {
+  background-color: #edeeef;
+}
+
+// Personal Details
+
+.personal-details {
+  padding-top: 40px;
+  h3 {
+    margin-bottom: 20px;
+  }
+}
+
+// Skills
+.skills-container {
+  background-color: #edeeef;
+  padding: 30px 0 10px;
+  .skills {
+    background-color: rgb(238, 238, 238);
+    margin: 10px 0 20px;
+  }
+}
+
+// Experience
+.experience {
+  padding: 30px 0 40px;
+  .exp-wrapper h5 {
+    font-weight: bold;
+  }
+}
+// Import other styles from the experience section
+
+// My Motto
+.my-system {
+  background-color: #eeeeee;
+}
+
+// Contact
+
+.contact-container {
+  margin-top: 0;
+  .contact {
+    margin-top: 50px;
+  }
+}
+
+#myName {
+  padding: 18px 20px;
+  background-color: rgb(0, 0, 0);
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+nav {
+  padding: 18px;
+  float: right;
+  font-weight: bold;
+  > ul {
+    list-style: none;
+    margin: 0;
+    li {
+      display: inline-block;
+      margin-right: 15px;
+    }
+  }
+}
+
+.personal-details {
+  margin-bottom: 20px;
+  > h2 {
+    margin: 100px 0 30px 0;
+  }
+}
+
+.personal-info {
+  list-style: none;
+  margin-top: 35px;
+}
+.skills {
+  margin-top: 60px;
+  ul {
+    list-style: none;
+    li {
+      padding: 9px 0;
+      border-bottom: 1px solid #e1e1e1;
+      color: #252525;
+      display: inline-block;
+      padding: 10px 20px;
+      border: 1px solid;
+      margin: 0 10px 15px 0;
+    }
+  }
+}
+
+/*CONTACT*/
+
+.container.bg-black {
+  padding-bottom: 80px;
+}
+
+.container.bg-black,
+.contact,
+#contact-form input,
+#contact-form textarea {
+  background-color: #202020;
+  color: #fff;
+}
+
+.contact {
+  margin-top: 100px;
+}
+
+.social-links {
+  list-style: none;
+  margin-bottom: 0;
+}
+.social-links li {
+  display: inline-block;
+  font-size: 2em;
+  margin: 5px;
+}
+
+.social-links a {
+  color: #fff;
+}
+.social-links a:hover {
+  color: #9b9b9b;
+}
+
+footer {
+  background-color: #000;
+}
+
+@media (min-width: 0px) {
+}
