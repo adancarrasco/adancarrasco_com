@@ -3,9 +3,9 @@ import React from 'react';
 class Skills extends React.Component {
   render() {
     return (
-      <div class="skills-container">
-        <div class="container">
-          <div class="row skills">
+      <div className="skills-container">
+        <div className="container">
+          <div className="row skills">
             <h3>Skills</h3>
             <ul>
               <li>React</li>

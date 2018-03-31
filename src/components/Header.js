@@ -3,9 +3,9 @@ import React from 'react';
 class Header extends React.Component {
   render() {
     return (
-      <header class="header">
-        <div class="header container">
-          <div id="myName" class="left">
+      <header className="header">
+        <div className="header container">
+          <div id="myName" className="left">
             ADÁN CARRASCO
           </div>
           <nav>

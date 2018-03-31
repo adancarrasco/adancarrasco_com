@@ -3,8 +3,8 @@ import React from 'react';
 class MyMotto extends React.Component {
   render() {
     return (
-      <div class="my-system">
-        <div class="container">
+      <div className="my-system">
+        <div className="container">
           <h3>My motto</h3>
           <p>
             I think in constant improvement and that you can always make the

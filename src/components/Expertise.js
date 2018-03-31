@@ -3,17 +3,17 @@ import React from 'react';
 class Expertise extends React.Component {
   render() {
     return (
-      <div class="experience">
-        <div class="container">
+      <div className="experience">
+        <div className="container">
           <h3>Expertise</h3>
-          <div class="exp-wrapper">
-            <div class="exp-item row">
-              <div class="exp-date-range col-sm-3">
+          <div className="exp-wrapper">
+            <div className="exp-item row">
+              <div className="exp-date-range col-sm-3">
                 <h5>Oracle</h5>
                 <span>2015 - Current</span>
                 <p>Guadalajara, México</p>
               </div>
-              <div class="exp-details col-sm-8">
+              <div className="exp-details col-sm-8">
                 <h5>Senior Front End Engineer</h5>
 
                 <p>
@@ -24,12 +24,12 @@ class Expertise extends React.Component {
                 </p>
               </div>
             </div>
-            <div class="exp-item row">
-              <div class="exp-date-range col-sm-3">
+            <div className="exp-item row">
+              <div className="exp-date-range col-sm-3">
                 <h5>Moviely</h5>
                 <p>2015 - Current</p>
               </div>
-              <div class="exp-details col-sm-8">
+              <div className="exp-details col-sm-8">
                 <h5>Founder, Developer</h5>
 
                 <p>
@@ -38,12 +38,12 @@ class Expertise extends React.Component {
                 </p>
               </div>
             </div>
-            <div class="exp-item row">
-              <div class="exp-date-range col-sm-3">
+            <div className="exp-item row">
+              <div className="exp-date-range col-sm-3">
                 <h5>Oracle</h5>
                 <p>2014 - 2015</p>
               </div>
-              <div class="exp-details col-sm-8">
+              <div className="exp-details col-sm-8">
                 <h5>Front End Engineer</h5>
 
                 <p>
@@ -53,12 +53,12 @@ class Expertise extends React.Component {
                 </p>
               </div>
             </div>
-            <div class="exp-item row">
-              <div class="exp-date-range col-sm-3">
+            <div className="exp-item row">
+              <div className="exp-date-range col-sm-3">
                 <h5>Esurance: HCL Technologies</h5>
                 <p>2015 - Current</p>
               </div>
-              <div class="exp-details col-sm-8">
+              <div className="exp-details col-sm-8">
                 <h5>Web Developer</h5>
 
                 <p>
@@ -67,12 +67,12 @@ class Expertise extends React.Component {
                 </p>
               </div>
             </div>
-            <div class="exp-item row">
-              <div class="exp-date-range col-sm-3">
+            <div className="exp-item row">
+              <div className="exp-date-range col-sm-3">
                 <h5>Univision Interactive Media: HCL Technologies</h5>
                 <p>2015 - Current</p>
               </div>
-              <div class="exp-details col-sm-8">
+              <div className="exp-details col-sm-8">
                 <h5>Front-End Developer</h5>
 
                 <p>
@@ -81,12 +81,12 @@ class Expertise extends React.Component {
                 </p>
               </div>
             </div>
-            <div class="exp-item row">
-              <div class="exp-date-range col-sm-3">
+            <div className="exp-item row">
+              <div className="exp-date-range col-sm-3">
                 <h5>4TH Source</h5>
                 <p>2015 - Current</p>
               </div>
-              <div class="exp-details col-sm-8">
+              <div className="exp-details col-sm-8">
                 <h5>Software Developer</h5>
 
                 <p>
@@ -95,12 +95,12 @@ class Expertise extends React.Component {
                 </p>
               </div>
             </div>
-            <div class="exp-item row">
-              <div class="exp-date-range col-sm-3">
+            <div className="exp-item row">
+              <div className="exp-date-range col-sm-3">
                 <h5>Xololitos Inc.</h5>
                 <p>2015 - Current</p>
               </div>
-              <div class="exp-details col-sm-8">
+              <div className="exp-details col-sm-8">
                 <h5>Owner, Developer</h5>
 
                 <p>
