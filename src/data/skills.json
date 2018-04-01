@@ -1,0 +1,61 @@
+{
+  "skills": [
+    {
+      "name": "React"
+    },
+    {
+      "name": "Redux"
+    },
+    {
+      "name": "Firebase"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "Ionic"
+    },
+    {
+      "name": "Sass"
+    },
+    {
+      "name": "Express"
+    },
+    {
+      "name": "Webpack"
+    },
+    {
+      "name": "HTML5"
+    },
+    {
+      "name": "AngularJS"
+    },
+    {
+      "name": "NodeJS"
+    },
+    {
+      "name": "Less"
+    },
+    {
+      "name": "UX"
+    },
+    {
+      "name": "Bootstrap"
+    },
+    {
+      "name": "jQuery"
+    },
+    {
+      "name": "D3"
+    },
+    {
+      "name": ".NET"
+    },
+    {
+      "name": "C#"
+    },
+    {
+      "name": "Ruby on Rails"
+    }
+  ]
+}

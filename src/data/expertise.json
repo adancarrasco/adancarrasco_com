@@ -1,0 +1,43 @@
+{
+  "expertise": [
+    {
+      "company": "Oracle",
+      "period": "09/2016 – Present",
+      "city": "Guadalajara, México",
+      "jobTitle": "Senior Front-End Engineer",
+      "description":
+        "Developing Oracle Data Visualization, team member developing the Project to create Data Flows. Doing Code Reviews and leading a couple of new members, advising them on follow the best practices on the development process."
+    },
+    {
+      "company": "Oracle",
+      "period": "10/2014 – 09/2016",
+      "city": "Guadalajara, México",
+      "jobTitle": "Front-End Engineer",
+      "description":
+        "Gave support and developed some of the Oracle Data Visualization features principally for Mobile, product to analyze and visualize data."
+    },
+    {
+      "company": "Esurance: HCL Technologies Contractor",
+      "period": "06/2014 – 10/2014",
+      "city": "Guadalajara, México",
+      "jobTitle": "Mobile Web Developer",
+      "description":
+        "Developed the Mobile Web App to renew policies for cars and motorcycles."
+    },
+    {
+      "company": "Univision Interactive Media: HCL Technologies Contractor",
+      "period": "05/2013 – 06/2014",
+      "city": "Guadalajara, México",
+      "jobTitle": "Front-End Developer",
+      "description":
+        "Gave ideas for the creation of current new responsive design for Univision’s News site."
+    },
+    {
+      "company": "4th Source",
+      "period": "01/2013 - 05/2013",
+      "city": "Mérida, México",
+      "jobTitle": "Software Developer",
+      "description": "Developed a website for a landscaping company."
+    }
+  ]
+}
