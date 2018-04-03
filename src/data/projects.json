@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "title": "Moviely",
+      "description": "App to track your favorite Movies and TV Shows.",
+      "image": "/img/projects/MovielyThumb.png"
+    },
+    {
+      "title": "MiMesaDeRegalos.com",
+      "description":
+        "Create wish lists so your friends know what to give you as gift.",
+      "image": "/img/projects/MMDRThumb.png"
+    },
+    {
+      "title": "Xololitos",
+      "description": "Virtual pets installed on your desktop.",
+      "image": "/img/projects/XololitosThumb.png"
+    }
+  ]
+}

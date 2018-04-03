@@ -82,6 +82,65 @@ header {
 // My Projects
 .projects {
   padding: 30px 0;
+  .project-container {
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+    }
+    .project-details-container {
+      position: absolute;
+      top: 0;
+      height: inherit;
+      text-align: center;
+      margin-right: 15px;
+      .project-title,
+      .project-desc {
+        color: #fff;
+      }
+      .project-details-opacity {
+        background-color: #000;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        opacity: 0;
+        transition: opacity 800ms;
+      }
+      .project-details {
+        top: 30%;
+        position: relative;
+        padding: 15px;
+        .project-title {
+          position: relative;
+          opacity: 0;
+          transform: translateY(-20px);
+          transition: transform 600ms, opacity 600ms;
+        }
+        .project-desc {
+          position: relative;
+          opacity: 0;
+          transform: translateY(20px);
+          transition: transform 600ms, opacity 600ms;
+        }
+      }
+      &:hover {
+        .project-details-opacity {
+          opacity: 0.85;
+          transition: opacity 600ms;
+        }
+        .project-title {
+          opacity: 1;
+          transform: translateY(0px);
+          transition: transform 800ms, opacity 800ms;
+        }
+        .project-desc {
+          opacity: 1;
+          transform: translateY(0px);
+          transition: transform 800ms, opacity 800ms;
+        }
+      }
+    }
+  }
 }
 
 // Contact
@@ -149,37 +208,6 @@ nav {
 
 /*CONTACT*/
 
-.container.bg-black {
-  padding-bottom: 80px;
-}
-
-.container.bg-black,
-.contact,
-#contact-form input,
-#contact-form textarea {
-  color: #fff;
-}
-
-.social-links {
-  list-style: none;
-  margin-bottom: 0;
-}
-.social-links li {
-  display: inline-block;
-  font-size: 2em;
-  margin: 5px;
-}
-
-.social-links a {
-  color: #fff;
-}
-.social-links a:hover {
-  color: #9b9b9b;
-}
-
 footer {
   background-color: #26262a;
-}
-
-@media (min-width: 0px) {
 }
