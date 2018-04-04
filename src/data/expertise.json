@@ -2,8 +2,9 @@
   "expertise": [
     {
       "company": "Oracle",
-      "period": "09/2016 – Present",
+      "period": "09/2016 – Current",
       "city": "Guadalajara, México",
+      "website": "http://oracle.com",
       "jobTitle": "Senior Front-End Engineer",
       "description":
         "Developing Oracle Data Visualization, team member developing the Project to create Data Flows. Doing Code Reviews and leading a couple of new members, advising them on follow the best practices on the development process."
@@ -12,22 +13,25 @@
       "company": "Oracle",
       "period": "10/2014 – 09/2016",
       "city": "Guadalajara, México",
+      "website": "http://oracle.com",
       "jobTitle": "Front-End Engineer",
       "description":
         "Gave support and developed some of the Oracle Data Visualization features principally for Mobile, product to analyze and visualize data."
     },
     {
-      "company": "Esurance: HCL Technologies Contractor",
+      "company": "Esurance: HCL Technologies",
       "period": "06/2014 – 10/2014",
       "city": "Guadalajara, México",
+      "website": "http://esurance.com",
       "jobTitle": "Mobile Web Developer",
       "description":
         "Developed the Mobile Web App to renew policies for cars and motorcycles."
     },
     {
-      "company": "Univision Interactive Media: HCL Technologies Contractor",
+      "company": "Univision: HCL Technologies",
       "period": "05/2013 – 06/2014",
       "city": "Guadalajara, México",
+      "website": "http://univision.com",
       "jobTitle": "Front-End Developer",
       "description":
         "Gave ideas for the creation of current new responsive design for Univision’s News site."
@@ -35,6 +39,7 @@
     {
       "company": "4th Source",
       "period": "01/2013 - 05/2013",
+      "website": "http://4thsource.com",
       "city": "Mérida, México",
       "jobTitle": "Software Developer",
       "description": "Developed a website for a landscaping company."

@@ -12,11 +12,23 @@ class Expertise extends React.Component {
                 <div className="exp-date-range col-sm-3">
                   <h5>{expertiseItem.company}</h5>
                   <span>{expertiseItem.period}</span>
-                  <p>{expertiseItem.city}</p>
                 </div>
                 <div className="exp-details col-sm-8">
                   <h5>{expertiseItem.jobTitle}</h5>
                   <p>{expertiseItem.description}</p>
+                  <span className="exp-location">
+                    <i className="material-icons">location_on</i>
+                    {expertiseItem.city} |{' '}
+                  </span>
+
+                  <a
+                    href={expertiseItem.website}
+                    title={expertiseItem.company}
+                    target="_blank"
+                  >
+                    <i className="material-icons exp-company-link">language</i>
+                    {expertiseItem.website}
+                  </a>
                 </div>
               </div>
             </div>

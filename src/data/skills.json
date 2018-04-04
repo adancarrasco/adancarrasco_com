@@ -10,13 +10,25 @@
       "name": "Firebase"
     },
     {
-      "name": "JavaScript"
+      "name": "React Native"
+    },
+    {
+      "name": "Object Oriented JavaScript"
+    },
+    {
+      "name": "Design Patterns"
     },
     {
       "name": "Ionic"
     },
     {
       "name": "Sass"
+    },
+    {
+      "name": "Leadership"
+    },
+    {
+      "name": "Entrepreneur"
     },
     {
       "name": "Express"
@@ -28,7 +40,16 @@
       "name": "HTML5"
     },
     {
+      "name": "ES6"
+    },
+    {
+      "name": "Selenium"
+    },
+    {
       "name": "AngularJS"
+    },
+    {
+      "name": "KnockoutJS"
     },
     {
       "name": "NodeJS"
@@ -49,7 +70,10 @@
       "name": "D3"
     },
     {
-      "name": ".NET"
+      "name": "Java"
+    },
+    {
+      "name": "ASP.NET"
     },
     {
       "name": "C#"

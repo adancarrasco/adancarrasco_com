@@ -1,11 +1,10 @@
 /*GENERAL CLASSES AND STYLES*/
 a {
-  color: #000;
+  color: #ff7b45;
   font-weight: bold;
 }
 a:hover {
-  color: #000;
-  text-decoration: none;
+  color: #d43f04;
 }
 .left {
   float: left;
@@ -32,9 +31,19 @@ body {
   font-weight: 200;
   color: rgb(85, 85, 85);
 }
+ul {
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+}
 header {
   height: 60px;
   border-bottom: 1px solid #cfcfcf;
+}
+i.fab {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
 }
 
 // Header
@@ -56,10 +65,9 @@ header {
 
 // Skills
 .skills-container {
-  background-color: #edeeef;
+  background-color: #fdede4;
   padding: 30px 0 10px;
   .skills {
-    background-color: rgb(238, 238, 238);
     margin: 10px 0 20px;
   }
 }
@@ -67,15 +75,31 @@ header {
 // Experience
 .experience {
   padding: 30px 0 40px;
-  .exp-wrapper h5 {
-    font-weight: bold;
+  .exp-wrapper {
+    h5 {
+      font-weight: bold;
+    }
+    .exp-item {
+      margin-bottom: 20px;
+      .exp-details {
+        .exp-location {
+          color: #2196f3;
+        }
+        .exp-company-link {
+          // transform: rotate(90deg);
+        }
+        .material-icons {
+          vertical-align: middle;
+        }
+      }
+    }
   }
 }
 // Import other styles from the experience section
 
 // My Motto
 .my-system {
-  background-color: #eee;
+  background-color: #fdede4;
   padding: 30px 0;
 }
 
@@ -85,15 +109,19 @@ header {
   .project-container {
     width: 100%;
     height: 100%;
+    margin-bottom: 20px;
     img {
       width: 100%;
     }
     .project-details-container {
       position: absolute;
       top: 0;
+      left: 0;
       height: inherit;
       text-align: center;
       margin-right: 15px;
+      width: calc(100% - 30px);
+      margin: 0px 15px;
       .project-title,
       .project-desc {
         color: #fff;
@@ -119,8 +147,18 @@ header {
         .project-desc {
           position: relative;
           opacity: 0;
-          transform: translateY(20px);
+          transform: translateY(-15px);
           transition: transform 600ms, opacity 600ms;
+        }
+        .view-project {
+          position: relative;
+          margin-top: 10px;
+          display: inline-flex;
+          opacity: 0;
+          transform: translateY(10px);
+          transition: transform 600ms, opacity 600ms;
+          border: 2px solid #ff7b45;
+          padding: 4px 12px;
         }
       }
       &:hover {
@@ -138,6 +176,36 @@ header {
           transform: translateY(0px);
           transition: transform 800ms, opacity 800ms;
         }
+        .view-project {
+          opacity: 1;
+          transform: translateY(-10px);
+          transition: transform 800ms, opacity 800ms, background-color 600ms;
+          &:hover {
+            background-color: #ff7b45;
+            color: #000;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .create-project-container {
+    margin: 40px 0 30px;
+    text-align: center;
+    .create-a-project-btn {
+      border: 2px solid #000;
+      text-transform: uppercase;
+      padding: 21px 34px;
+      background-color: transparent;
+      color: #000;
+      -webkit-transition: 0.1s background-color linear, 0.1s color linear;
+      -moz-transition: 0.1s background-color linear, 0.1s color linear;
+      -o-transition: 0.1s background-color linear, 0.1s color linear;
+      transition: 0.1s background-color linear, 0.1s color linear;
+      &:hover {
+        background-color: #272727;
+        text-decoration: none;
+        color: #fff;
       }
     }
   }
@@ -188,17 +256,16 @@ nav {
     color: rgb(37, 37, 37);
     padding: 9px 0px;
     border-bottom: 1px solid rgb(225, 225, 225);
+    display: block;
   }
 }
 .skills {
   margin-top: 60px;
   ul {
-    list-style: none;
     li {
       padding: 9px 0;
       border-bottom: 1px solid #e1e1e1;
       color: #252525;
-      display: inline-block;
       padding: 10px 20px;
       border: 1px solid;
       margin: 0 10px 15px 0;
@@ -210,4 +277,13 @@ nav {
 
 footer {
   background-color: #26262a;
+  .contact-container {
+    color: #fff;
+  }
+  ul li {
+    margin-right: 10px;
+    > a > i.fab {
+      font-size: 2rem;
+    }
+  }
 }

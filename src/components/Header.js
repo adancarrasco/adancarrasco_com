@@ -10,7 +10,9 @@ const Header = props => (
         <ul>
           <li>{/* <a href="http://blog.adancarrasco.com">BLOG</a> */}</li>
           <li>
-            <a href="#contact">CONTACT</a>
+            <a href="https://github.com/adancarrasco">
+              <i className="fab fa-github" /> GitHub
+            </a>
           </li>
         </ul>
       </nav>

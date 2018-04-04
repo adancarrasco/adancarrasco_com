@@ -6,8 +6,8 @@ const MyMotto = props => (
       <h3>My motto</h3>
       <p>
         I think in constant improvement and that you can always make the things
-        better, being part of the right team, teaching and learning from others.
-        That's the way to perfection.
+        better, always teaching and learning from others. That's the way to
+        perfection.
       </p>
     </div>
   </div>

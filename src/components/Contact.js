@@ -8,37 +8,37 @@ const Contact = props => (
           <h2>Get in touch</h2>
           <div className="row" />
         </section>
+        <ul className="container social-links">
+          <li>
+            <a
+              href="http://twitter.com/adancarrasco"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-twitter" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://mx.linkedin.com/in/adancarrasco/en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-linkedin-in" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://instagram.com/adancarrasco"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-instagram" />
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
-    <ul className="container social-links">
-      <li>
-        <a
-          href="http://twitter.com/adancarrasco"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fa fa-twitter" />
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://mx.linkedin.com/in/adancarrasco/en"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fa fa-linkedin" />
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://instagram.com/adancarrasco"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fa fa-instagram" />
-        </a>
-      </li>
-    </ul>
   </footer>
 );
 

@@ -10,8 +10,11 @@ const MyProjects = props => {
       <div className="project-details-container">
         <div className="project-details-opacity" />
         <div className="project-details">
-          <h5 className="project-title">{project.title}</h5>
+          <h4 className="project-title">{project.title}</h4>
           <p className="project-desc">{project.description}</p>
+          <a href="#" className="view-project">
+            View project
+          </a>
         </div>
       </div>
     </div>
@@ -25,6 +28,11 @@ const MyProjects = props => {
           <div className="projects-container row">
             {props.projects.map(renderProject)}
           </div>
+        </div>
+        <div className="create-project-container">
+          <a href="#" className="create-a-project-btn">
+            Create a project with me
+          </a>
         </div>
       </div>
     </div>
