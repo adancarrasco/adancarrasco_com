@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import expertiseData from './data/expertise.json';
 import skillsData from './data/skills.json';
 import projectsData from './data/projects.json';
@@ -19,15 +19,18 @@ class App extends Component {
   };
   render() {
     return (
-      <div className="App">
-        <Header />
+      <Fragment>
+        <Header history={this.props.history} />
         <PersonalDetails />
         <Skills skills={this.state.skillsItems} />
         <Expertise expertise={this.state.expertiseItems} />
         <MyMotto />
-        <MyProjects projects={this.state.projectsItems} />
+        <MyProjects
+          projects={this.state.projectsItems}
+          history={this.props.history}
+        />
         <Contact />
-      </div>
+      </Fragment>
     );
   }
 }

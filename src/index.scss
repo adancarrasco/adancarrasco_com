@@ -162,6 +162,9 @@ i.fab {
           transition: transform 600ms, opacity 600ms;
           border: 2px solid #ff7b45;
           padding: 4px 12px;
+          background-color: transparent;
+          color: #ff7a45;
+          cursor: pointer;
         }
       }
       &:hover {

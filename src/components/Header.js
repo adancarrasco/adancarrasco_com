@@ -3,7 +3,13 @@ import React from 'react';
 const Header = props => (
   <header className="header">
     <div className="header container">
-      <div id="myName" className="left">
+      <div
+        id="myName"
+        className="left"
+        onClick={() => {
+          props.history.push('/');
+        }}
+      >
         ADÁN CARRASCO
       </div>
       <nav>
