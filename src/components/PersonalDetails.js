@@ -36,6 +36,22 @@ const PersonalDetails = props => (
             Back-End Languages and Frameworks as NodeJS, Java, Ruby on Rails,
             C#, ASP.NET.
           </p>
+          <p>
+            I started loving computers when I was 13 years old, back then my
+            Operative System was broken due to a Trojan virus that removed
+            important startup files and I restored it by using only CMD commands
+            and copied the missing files from the installation CD into the Hard
+            Drive. From that moment I felt the power that computers have and
+            that creating Software I could help other people to make their lifes
+            more easier, doing the Software they need to accomplish their work,
+            improving their lifes and connecting with others.
+          </p>
+          <p>
+            That's why I love creating Software, I can tell the computers and
+            now smartphones and tablets through poems only they understand
+            (code) how to help people and how to automate their tasks and
+            duties, that's the best part of my career as a Software Engineer.
+          </p>
         </div>
       </div>
     </section>

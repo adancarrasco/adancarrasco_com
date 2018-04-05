@@ -14,7 +14,8 @@
     {
       "title": "Xololitos",
       "description": "Virtual pets installed on your desktop.",
-      "image": "/img/projects/XololitosThumb.png"
+      "image": "/img/projects/XololitosThumb.png",
+      "className": "xololitos-thumb"
     }
   ]
 }

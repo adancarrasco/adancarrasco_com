@@ -43,6 +43,15 @@
       "city": "Mérida, México",
       "jobTitle": "Software Developer",
       "description": "Developed a website for a landscaping company."
+    },
+    {
+      "company": "CodeDS",
+      "period": "07/2010 - 09/2011",
+      "website": "",
+      "city": "Chihuahua, México",
+      "jobTitle": "Co-Founder, Developer",
+      "description":
+        "Developed client's websites for local businesses in the city."
     }
   ]
 }

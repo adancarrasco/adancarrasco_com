@@ -113,6 +113,9 @@ i.fab {
     img {
       width: 100%;
     }
+    .xololitos-thumb {
+      filter: grayscale(75%);
+    }
     .project-details-container {
       position: absolute;
       top: 0;
@@ -135,7 +138,7 @@ i.fab {
         transition: opacity 800ms;
       }
       .project-details {
-        top: 30%;
+        top: 23%;
         position: relative;
         padding: 15px;
         .project-title {
@@ -215,12 +218,12 @@ i.fab {
 
 .contact-container {
   margin-top: 0;
-  padding: 30px 0;
+  padding: 50px 0 100px;
 }
 
 #myName {
   padding: 18px 20px;
-  background-color: rgb(0, 0, 0);
+  background-color: #26262b;
   display: inline-block;
   color: rgb(255, 255, 255);
   font-weight: bold;
@@ -280,10 +283,20 @@ footer {
   .contact-container {
     color: #fff;
   }
+  .contact-get-in-touch {
+    margin-left: 5%;
+    p,
+    ul {
+      display: inline-flex;
+    }
+    ul {
+      padding-left: 15px;
+    }
+  }
   ul li {
     margin-right: 10px;
     > a > i.fab {
-      font-size: 2rem;
+      font-size: 1.3rem;
     }
   }
 }
