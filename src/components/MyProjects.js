@@ -20,7 +20,7 @@ class MyProjects extends React.Component {
           </div>
           <div className="create-project-container">
             <a href="#" className="create-a-project-btn">
-              Create a project with me
+              Let's create a project
             </a>
           </div>
         </div>

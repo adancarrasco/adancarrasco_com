@@ -7,7 +7,7 @@ const MyMotto = props => (
       <p>
         I think in constant improvement and that you can always make the things
         better, always teaching and learning from others. That's the way to
-        perfection.
+        continuous growth.
       </p>
     </div>
   </div>

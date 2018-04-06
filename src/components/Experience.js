@@ -1,18 +1,18 @@
 import React, {Fragment} from 'react';
 
-class Expertise extends React.Component {
-  hasWebSite(expertiseItem) {
-    if (expertiseItem.website) {
+class Experience extends React.Component {
+  hasWebSite(experienceItem) {
+    if (experienceItem.website) {
       return (
         <Fragment>
           <span> | </span>
           <a
-            href={expertiseItem.website}
-            title={expertiseItem.company}
+            href={experienceItem.website}
+            title={experienceItem.company}
             target="_blank"
           >
             <i className="material-icons exp-company-link">language</i>
-            {expertiseItem.website}
+            {experienceItem.website}
           </a>
         </Fragment>
       );
@@ -22,22 +22,22 @@ class Expertise extends React.Component {
     return (
       <div className="experience">
         <div className="container">
-          <h3>Expertise</h3>
-          {this.props.expertise.map(expertiseItem => (
-            <div className="exp-wrapper" key={expertiseItem.period}>
+          <h3>Experience</h3>
+          {this.props.experience.map(experienceItem => (
+            <div className="exp-wrapper" key={experienceItem.period}>
               <div className="exp-item row">
                 <div className="exp-date-range col-sm-3">
-                  <h5>{expertiseItem.company}</h5>
-                  <span>{expertiseItem.period}</span>
+                  <h5>{experienceItem.company}</h5>
+                  <span>{experienceItem.period}</span>
                 </div>
                 <div className="exp-details col-sm-8">
-                  <h5>{expertiseItem.jobTitle}</h5>
-                  <p>{expertiseItem.description}</p>
+                  <h5>{experienceItem.jobTitle}</h5>
+                  <p>{experienceItem.description}</p>
                   <span className="exp-location">
                     <i className="material-icons">location_on</i>
-                    {expertiseItem.city}
+                    {experienceItem.city}
                   </span>
-                  {this.hasWebSite(expertiseItem)}
+                  {this.hasWebSite(experienceItem)}
                 </div>
               </div>
             </div>
@@ -48,4 +48,4 @@ class Expertise extends React.Component {
   }
 }
 
-export default Expertise;
+export default Experience;
