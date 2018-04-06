@@ -28,6 +28,13 @@
         "MiMesaDeRegalos.com, was a Web Application where the users had the hability to create Wish Lists, if you were planning to host an event such as a Wedding, Birthday Party, etc, and you wanted to give your guests a list of what they could give you as gift MiMesaDeRegalos.com had the solution for it.",
         "Your guests signup on the Web App and could see the list of items and select one, with this the Host wouldn't get duplicated items also would get only items from his/her Wish List."
       ],
+      "website": "http://mimesaderegalos.adancarrasco.com/",
+      "images": [
+        {
+          "alt": "MiMesaDeRegalos.com Web Site.",
+          "src": "/img/projects/MMDR/1.jpg"
+        }
+      ],
       "state": "Lost domain, Unattended | Last updated 06/2015."
     },
     {
@@ -39,6 +46,21 @@
       "longDescription": [
         "Xololitos, was a virtual pet that you could have installed in your desktop. This was first designed when Windows Vista and 7 had the hability to show Gadgets running on the desktop.",
         "The project was done using .NET Technologies: Windows Presentation Foundation for the Desktop Application and ASP.NET for the WebSite."
+      ],
+      "website": "http://xololitos.adancarrasco.com/",
+      "images": [
+        {
+          "alt": "Xololitos Web Site.",
+          "src": "/img/projects/Xololitos/1.jpg"
+        },
+        {
+          "alt": "Xololitos Web Site.",
+          "src": "/img/projects/Xololitos/2.jpg"
+        },
+        {
+          "alt": "Xololitos Web Site.",
+          "src": "/img/projects/Xololitos/3.jpg"
+        }
       ],
       "state": "Unattended | Last updated 03/2012."
     }

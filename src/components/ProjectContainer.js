@@ -31,8 +31,8 @@ class Project extends React.Component {
           <div className="project-screens-container">
             <h5>These are some of the project drafts and screenshots.</h5>
             {project.images.map((image, i) => (
-              <div class="project-image-container">
-                <img alt={image.alt} key={i} src={image.src} />
+              <div key={i} className="project-image-container">
+                <img alt={image.alt} src={image.src} />
               </div>
             ))}
           </div>

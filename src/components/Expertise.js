@@ -1,6 +1,23 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 
 class Expertise extends React.Component {
+  hasWebSite(expertiseItem) {
+    if (expertiseItem.website) {
+      return (
+        <Fragment>
+          <span> | </span>
+          <a
+            href={expertiseItem.website}
+            title={expertiseItem.company}
+            target="_blank"
+          >
+            <i className="material-icons exp-company-link">language</i>
+            {expertiseItem.website}
+          </a>
+        </Fragment>
+      );
+    }
+  }
   render() {
     return (
       <div className="experience">
@@ -18,17 +35,9 @@ class Expertise extends React.Component {
                   <p>{expertiseItem.description}</p>
                   <span className="exp-location">
                     <i className="material-icons">location_on</i>
-                    {expertiseItem.city} |{' '}
+                    {expertiseItem.city}
                   </span>
-
-                  <a
-                    href={expertiseItem.website}
-                    title={expertiseItem.company}
-                    target="_blank"
-                  >
-                    <i className="material-icons exp-company-link">language</i>
-                    {expertiseItem.website}
-                  </a>
+                  {this.hasWebSite(expertiseItem)}
                 </div>
               </div>
             </div>
