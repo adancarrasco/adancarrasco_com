@@ -5,7 +5,7 @@ import ProjectContainer from './ProjectContainer';
 import NotFound from './NotFound';
 
 const Router = () => (
-  <BrowserRouter>
+  <BrowserRouter onUpdate={() => window.scrollTo(0, 0)}>
     <Switch>
       <Route exact path="/" component={App} />
       <Route path="/project/:projectId" component={ProjectContainer} />
