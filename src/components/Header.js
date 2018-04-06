@@ -3,15 +3,16 @@ import React from 'react';
 const Header = props => (
   <header className="header">
     <div className="header container">
-      <div
+      <a
         id="myName"
         className="left"
+        title="adancarrasco.com"
         onClick={() => {
           props.history.push('/');
         }}
       >
         ADÁN CARRASCO
-      </div>
+      </a>
       <nav>
         <ul>
           <li>{/* <a href="http://blog.adancarrasco.com">BLOG</a> */}</li>
