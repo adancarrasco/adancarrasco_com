@@ -14,7 +14,7 @@ class Project extends React.Component {
         key={project.title}
       >
         <img
-          src={project.image}
+          src={project.homePageThumb}
           alt={project.title}
           className={project.className || ''}
         />

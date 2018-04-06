@@ -4,21 +4,43 @@
       "id": "Moviely",
       "title": "Moviely",
       "description": "App to track your favorite Movies and TV Shows.",
-      "image": "/img/projects/MovielyThumb.png"
+      "homePageThumb": "/img/projects/MovielyThumb.png",
+      "longDescription": [
+        "Moviely is a Mobile App to track your favorite Movies and TV Shows. You can also post reviews and see the reviews from others.",
+        "Basically is a Social Network to talk about Movies and TV Shows, you get points for every post you make. The game is easy, you get some random Movies or TV Shows and rate those you have already watched, plus can add them your watchlist."
+      ],
+      "website": "https://project-6474968285888090227.firebaseapp.com/",
+      "images": [
+        {
+          "alt": "Moviely Web Site.",
+          "src": "/img/projects/Moviely/1.jpg"
+        }
+      ],
+      "state": "Available for Android, Unattended | Last updated 04/2017."
     },
     {
       "id": "MMDR",
       "title": "MiMesaDeRegalos.com",
       "description":
         "Create wish lists so your friends know what to give you as gift.",
-      "image": "/img/projects/MMDRThumb.png"
+      "homePageThumb": "/img/projects/MMDRThumb.png",
+      "longDescription": [
+        "MiMesaDeRegalos.com, was a Web Application where the users had the hability to create Wish Lists, if you were planning to host an event such as a Wedding, Birthday Party, etc, and you wanted to give your guests a list of what they could give you as gift MiMesaDeRegalos.com had the solution for it.",
+        "Your guests signup on the Web App and could see the list of items and select one, with this the Host wouldn't get duplicated items also would get only items from his/her Wish List."
+      ],
+      "state": "Lost domain, Unattended | Last updated 06/2015."
     },
     {
       "id": "Xololitos",
       "title": "Xololitos",
       "description": "Virtual pets installed on your desktop.",
-      "image": "/img/projects/XololitosThumb.png",
-      "className": "xololitos-thumb"
+      "homePageThumb": "/img/projects/XololitosThumb.png",
+      "className": "xololitos-thumb",
+      "longDescription": [
+        "Xololitos, was a virtual pet that you could have installed in your desktop. This was first designed when Windows Vista and 7 had the hability to show Gadgets running on the desktop.",
+        "The project was done using .NET Technologies: Windows Presentation Foundation for the Desktop Application and ASP.NET for the WebSite."
+      ],
+      "state": "Unattended | Last updated 03/2012."
     }
   ]
 }

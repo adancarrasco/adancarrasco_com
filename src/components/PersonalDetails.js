@@ -5,7 +5,7 @@ const PersonalDetails = props => (
     <section className="personal-details">
       <h3>Personal Details</h3>
       <div className="row">
-        <div className="col-sm-3 col-xs-12">
+        <div className="col-lg-3 col-sm-6 col-xs-12">
           <img
             id="profile-pic"
             alt="Adán Carrasco Profile Pic"
@@ -13,7 +13,7 @@ const PersonalDetails = props => (
             className="profile-pic"
           />
         </div>
-        <ul className="col-lg-3 col-md-3 col-sm-3 col-xs-12 personal-info">
+        <ul className="col-lg-3 col-sm-6 col-xs-12 personal-info">
           <li>Name: Adán Carrasco</li>
           <li>Date of birth: August 26, 1989</li>
           <li>Nationality: Mexican</li>
@@ -27,7 +27,7 @@ const PersonalDetails = props => (
             </a>
           </li>
         </ul>
-        <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <div className="col-lg-6 col-sm-12 col-xs-12">
           <h4>About me</h4>
           <p>
             Software Engineer specialist in Web and Hybrid Mobile Apps
@@ -37,13 +37,13 @@ const PersonalDetails = props => (
             C#, ASP.NET.
           </p>
           <p>
-            I started loving computers when I was 13 years old, back then my
+            I started loving computers when I was 12 years old, back then my
             Operative System was broken due to a Trojan virus that removed
-            important startup files and I restored it by using only CMD commands
+            important startup files and I restored it by using only MS-DOS commands
             and copied the missing files from the installation CD into the Hard
             Drive. From that moment I felt the power that computers have and
             that creating Software I could help other people to make their lifes
-            more easier, doing the Software they need to accomplish their work,
+            easier, doing the Software they need to accomplish their work,
             improving their lifes and connecting with others.
           </p>
           <p>

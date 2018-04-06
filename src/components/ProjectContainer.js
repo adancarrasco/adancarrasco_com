@@ -11,11 +11,31 @@ class Project extends React.Component {
     this.setState({project});
   }
   render() {
+    const {project} = this.state;
     return (
       <Fragment>
         <Header history={this.props.history} />
-        <section className="container">
-          <h4>{this.state.project.title}</h4>
+        <section className="container project-container">
+          <div className="project-definition">
+            <h1>{project.title}</h1>
+            {project.longDescription.map((desc, i) => <h3 key={i}>{desc}</h3>)}
+            <p>{`Current state: ${project.state}`}</p>
+            <a
+              href={project.website}
+              target="_blank"
+              className="view-project go-to-website"
+            >
+              Go to Web Site
+            </a>
+          </div>
+          <div className="project-screens-container">
+            <h5>These are some of the project drafts and screenshots.</h5>
+            {project.images.map((image, i) => (
+              <div class="project-image-container">
+                <img alt={image.alt} key={i} src={image.src} />
+              </div>
+            ))}
+          </div>
         </section>
       </Fragment>
     );
