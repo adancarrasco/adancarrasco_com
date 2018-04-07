@@ -17,6 +17,7 @@ const Contact = props => (
                   href="http://twitter.com/adancarrasco"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Find me on Twitter."
                 >
                   <i className="fab fa-twitter" />
                 </a>
@@ -26,6 +27,7 @@ const Contact = props => (
                   href="http://mx.linkedin.com/in/adancarrasco/en"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Find me on LinkedIn."
                 >
                   <i className="fab fa-linkedin-in" />
                 </a>
@@ -35,12 +37,14 @@ const Contact = props => (
                   href="http://instagram.com/adancarrasco"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Find me on Instagram."
                 >
                   <i className="fab fa-instagram" />
                 </a>
               </li>
             </ul>
           </div>
+          <span className="made-in">&copy; 2018 Adán Carrasco. Made in CUU.</span>
         </section>
       </div>
     </div>

@@ -10,6 +10,7 @@ class Experience extends React.Component {
             href={experienceItem.website}
             title={experienceItem.company}
             target="_blank"
+            rel="noopener"
           >
             <i className="material-icons exp-company-link">language</i>
             {experienceItem.website}

@@ -19,7 +19,10 @@ class MyProjects extends React.Component {
             </div>
           </div>
           <div className="create-project-container">
-            <a href="#" className="create-a-project-btn">
+            <a
+              href="mailto:hello@adancarrasco.com"
+              className="create-a-project-btn"
+            >
               Let's create a project
             </a>
           </div>
