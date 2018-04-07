@@ -1,0 +1,37 @@
+{
+  "profilePic": {
+    "url": "./profile-pic.jpg",
+    "alt": "Adán Carrasco Profile Pic"
+  },
+  "personalData": {
+    "name": {
+      "title": "Name:",
+      "value": "Adán Carrasco"
+    },
+    "dateOfBirth": {
+      "title": "Date of birth:",
+      "value": "August 26, 1989"
+    },
+    "nationality": {
+      "title": "Nationality:",
+      "value": "Mexican"
+    }
+  },
+  "email": {
+    "title": "Email:",
+    "email": "hello@adancarrasco.com",
+    "anchorTitle": "Send me an email.",
+    "value": "email me"
+  },
+  "aboutMe": {
+    "title": "About me",
+    "descImageSide": [
+      "My name is Adán and I am a Software Engineer specialist in Web and Hybrid Mobile Apps Development. Loving and manipulating JavaScript from Vanilla to High-End Libraries and Frameworks as React and Angular. Fluent in Back-End Languages and Frameworks as NodeJS, Java, Ruby on Rails, C#, ASP.NET.",
+      "I started loving computers when I was 12 years old, back then my Operative System was broken due to a Trojan virus that removed important startup files and I restored it by using only MS-DOS commands and copied the missing files from the installation CD into the Hard Drive. From that moment I felt the power that computers have and that creating Software I could help other people to make their lifes easier, doing the Software they need to accomplish their work, improving their lifes and connecting with others."
+    ],
+    "descBelowImage": [
+      "That's why I love creating Software, I can tell the computers and now smartphones and tablets through poems only they understand (code) how to help people and how to automate their tasks and duties, that's the best part of my career as a Software Engineer.",
+      "In my free time I like to learn about new technologies and frameworks, that's why probably you won't see them listed in my work Experience, but if you are interested in my experience on those Technologies and Frameworks you can visit My Projects section and expand each of those to learn more about what I do in my free time."
+    ]
+  }
+}

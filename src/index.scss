@@ -222,6 +222,16 @@ i.fab {
 .contact-container {
   margin-top: 0;
   padding: 50px 0 100px;
+  .contact {
+    position: relative;
+    .made-in {
+      font-family: 'Work Sans';
+      position: absolute;
+      right: 20px;
+      bottom: -40px;
+      font-size: 0.9rem;
+    }
+  }
 }
 
 footer {
@@ -333,5 +343,8 @@ nav {
     text-align: center;
     background-color: #f3f3f3;
     padding: 30px 0;
+    &:last-child {
+      margin-bottom: 100px;
+    }
   }
 }
