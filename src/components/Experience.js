@@ -19,12 +19,15 @@ class Experience extends React.Component {
       );
     }
   }
+
   render() {
+    const {experience} = this.props.experience;
+    const {additionalExperience} = this.props.experience;
     return (
       <div className="experience">
         <div className="container">
           <h3>Experience</h3>
-          {this.props.experience.map(experienceItem => (
+          {experience.map(experienceItem => (
             <div className="exp-wrapper" key={experienceItem.period}>
               <div className="exp-item row">
                 <div className="exp-date-range col-sm-3">
@@ -43,6 +46,8 @@ class Experience extends React.Component {
               </div>
             </div>
           ))}
+          <h5>{additionalExperience.title}</h5>
+          <p>{additionalExperience.text}</p>
         </div>
       </div>
     );

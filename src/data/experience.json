@@ -1,4 +1,9 @@
 {
+  "additionalExperience": {
+    "title": "Additional Experience",
+    "text":
+      "In my free time I like to learn about new technologies and frameworks, that's why probably you won't see them listed as part of my work Experience, but if you are interested in my experience on those Technologies and Frameworks you can visit My Projects section and expand each of those to learn more about what I do in my free time."
+  },
   "experience": [
     {
       "company": "Oracle",
@@ -7,7 +12,7 @@
       "website": "http://oracle.com",
       "jobTitle": "Senior Front-End Engineer",
       "description":
-        "Developing Oracle Data Visualization, team member developing the Project to create Data Flows. Doing Code Reviews and leading a couple of new members, advising them on follow the best practices on the development process."
+        "As a Senior Front-End Engineer at Oracle, I am member of the Team who are developing Oracle Data Visualization, more specific creating Data Flows Project. Doing Code Reviews and leading a couple of new members, advising them on follow the best practices on the development process."
     },
     {
       "company": "Oracle",
@@ -16,7 +21,7 @@
       "website": "http://oracle.com",
       "jobTitle": "Front-End Engineer",
       "description":
-        "Gave support and developed some of the Oracle Data Visualization features principally for Mobile, product to analyze and visualize data."
+        "Gave support and developed some of the Oracle Data Visualization features mainly for Mobile, product to analyze and visualize data."
     },
     {
       "company": "Esurance: HCL Technologies",

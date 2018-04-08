@@ -13,7 +13,7 @@ import Contact from './components/Contact';
 
 class App extends Component {
   state = {
-    experienceItems: experienceData.experience,
+    experienceItems: experienceData,
     skillsItems: skillsData.skills,
     projectsItems: projectsData.projects,
   };
