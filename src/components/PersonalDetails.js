@@ -37,7 +37,7 @@ const PersonalDetails = props => {
             <h4>{aboutMe.title}</h4>
             {aboutMe.descImageSide.map((item, i) => <p key={i}>{item}</p>)}
           </div>
-          <div className="col-xs-12">
+          <div className="col-xs-12 col-sm-12">
             {aboutMe.descBelowImage.map((item, i) => <p key={i}>{item}</p>)}
           </div>
         </div>
