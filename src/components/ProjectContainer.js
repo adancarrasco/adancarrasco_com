@@ -2,6 +2,7 @@ import React, {Fragment} from 'react';
 import Header from './Header';
 
 import projectsData from '../data/projects.json';
+import Contact from './Contact';
 
 class Project extends React.Component {
   componentWillMount() {
@@ -12,6 +13,12 @@ class Project extends React.Component {
   }
   render() {
     const {project} = this.state;
+    const renderTechOrFworkDesc = (item, i) => (
+      <Fragment key={i}>
+        <span className="tech-fwork-title">{item.techOrFwork}</span>
+        <p>{item.desc}</p>
+      </Fragment>
+    );
     return (
       <Fragment>
         <Header history={this.props.history} />
@@ -28,6 +35,10 @@ class Project extends React.Component {
               Go to Web Site
             </a>
           </div>
+          <div className="project-tech-description">
+            <h5>How this project was created?</h5>
+            {project.techDesc.map((item, i) => renderTechOrFworkDesc(item, i))}
+          </div>
           <div className="project-screens-container">
             <h5>These are some of the project drafts and screenshots.</h5>
             {project.images.map((image, i) => (
@@ -37,6 +48,7 @@ class Project extends React.Component {
             ))}
           </div>
         </section>
+        <Contact />
       </Fragment>
     );
   }

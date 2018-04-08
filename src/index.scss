@@ -252,7 +252,9 @@ footer {
   ul li {
     margin-right: 10px;
     > a > i.fab {
-      font-size: 1.3rem;
+      font-size: 2rem;
+      line-height: 2rem;
+      vertical-align: middle;
     }
   }
 }
@@ -337,6 +339,14 @@ nav {
       bottom: 10px;
       opacity: 1;
       transition: background-color 600ms;
+    }
+  }
+  .project-tech-description {
+    .tech-fwork-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      display: inline-flex;
+      margin-bottom: 3px;
     }
   }
   .project-image-container {

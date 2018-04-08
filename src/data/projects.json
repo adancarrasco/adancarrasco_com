@@ -4,7 +4,7 @@
       "id": "Moviely",
       "title": "Moviely",
       "description": "App to track your favorite Movies and TV Shows.",
-      "homePageThumb": "/img/projects/MovielyThumb.png",
+      "homePageThumb": "/img/projects/MovielyThumb.jpg",
       "longDescription": [
         "Moviely is a Mobile App to track your favorite Movies and TV Shows. You can also post reviews and see the reviews from others.",
         "Basically is a Social Network to talk about Movies and TV Shows, you get points for every post you make. The game is easy, you get some random Movies or TV Shows and rate those you have already watched, plus can add them your watchlist."
@@ -16,14 +16,57 @@
           "src": "/img/projects/Moviely/1.jpg"
         }
       ],
-      "state": "Available for Android, Unattended | Last updated 04/2017."
+      "state": "Available for Android, Unattended | Last updated 04/2017.",
+      "headerTechDesc": "This project was built using:",
+      "techDesc": [
+        {
+          "techOrFwork": "Ionic as Hybrid Framework",
+          "desc":
+            "The App was intented to cover as much as possible users, and considering that I was the only developer, creating an App for each Mobile OS could have cost more time, I did some research and by that time Ionic was the strongest Framework for Hybrid Mobile Development, it had a big community support, several plugins and components, it also included AngularJS and I had worked with it, so was going to be easier to learn vs other Frameworks; all was positive and that's why Ionic was choosen to be Moviely's core Framework."
+        },
+        {
+          "techOrFwork": "Firebase as Database and Authentication provider",
+          "desc":
+            "Not having too many resources Firebase had all was needed for Moviely: real time Database, hosting and authentication provider, I just had to set it up and voila! It was working. Was hard at first because of the NoSQL (new to me) mindset. So, I had to change my mind to work with NoSQL instead of SQL (which I had more experience with), but I really enjoyed learning about NoSQL and learning that for NoSQL repeat/duplication is normal, creating multi-path updates and lookup tables were the key to keep the data consistent and fresh."
+        },
+        {
+          "techOrFwork": "Ionic Analytics for analytics",
+          "desc":
+            "Something important about Software is tracking data for analysis, this could include which parts of the App were used the most, which of them were not used etc, Ionic also included this implementation, I just had to learn how to used and voila it was tracking data to analyse and iterate or pivot if my idea was not accurate to user's preferences."
+        },
+        {
+          "techOrFwork": "Ionic Push Notifications",
+          "desc":
+            "An important thing about Mobile apps is to keep your users notified, you want them to use it and notify them about changes on the data would trigger an action so they open the App and this can keep them enganged. Ionic also came with this service included, a little bit of configuration and voila, worked! The main issue was to setup the certificates from iOS and Android, but if you have done this before will be easier to do it because it'll be the same process."
+        },
+        {
+          "techOrFwork": "D3",
+          "desc":
+            "A part of how to keep your users interested in using your App (engaged) is the data they generate, how to represent that data is very important, that's why D3 was used to visualize the Movies/TV Show genres the users had tracked + a chart showing the ratings they have done."
+        },
+        {
+          "techOrFwork": "Moment.js",
+          "desc":
+            "When your App can be used across different contries/timezones it's important to show all time involved information in the users' local data. Moment.js is the perfect library to do it when you are developing something with JavaScript."
+        },
+        {
+          "techOrFwork": "Hopscotch",
+          "desc":
+            "First time users not always now how to use your App. That's why I googled and found this library which lets you create a kind of tutorial to guide your first time users across the App and show them how to use it as well as explain them what that button/section/whatever does."
+        },
+        {
+          "techOrFwork": "Upgrades to the Database",
+          "desc":
+            "Something not good about NoSQL is when you decide that you need to change your Database structure, this can be because the user doesn't belong to some collection or you just decided to place that collection somewhere else, you need to make sure everything you have done previously would work perfect with the new data structure, nothing that an iterator algorithm can't do, I just had to collect all the data containing the old structure and iterate over it to do the upgrade, as soon as I had my object ready I did a multi-path update and that did the trick, altough this seems easy it's good to consider it and know it while using Firebase."
+        }
+      ]
     },
     {
       "id": "MMDR",
       "title": "MiMesaDeRegalos.com",
       "description":
         "Create wish lists so your friends know what to give you as gift.",
-      "homePageThumb": "/img/projects/MMDRThumb.png",
+      "homePageThumb": "/img/projects/MMDRThumb.jpg",
       "longDescription": [
         "MiMesaDeRegalos.com, was a Web Application where the users had the hability to create Wish Lists, if you were planning to host an event such as a Wedding, Birthday Party, etc, and you wanted to give your guests a list of what they could give you as gift MiMesaDeRegalos.com had the solution for it.",
         "Your guests signup on the Web App and could see the list of items and select one, with this the Host wouldn't get duplicated items also would get only items from his/her Wish List."
@@ -35,13 +78,20 @@
           "src": "/img/projects/MMDR/1.jpg"
         }
       ],
-      "state": "Lost domain, Unattended | Last updated 06/2015."
+      "state": "Lost domain, Unattended | Last updated 06/2015.",
+      "headerTechDesc": "This project was built using:",
+      "techDesc": [
+        {
+          "techOrFwork": "",
+          "desc": ""
+        }
+      ]
     },
     {
       "id": "Xololitos",
       "title": "Xololitos",
       "description": "Virtual pets installed on your desktop.",
-      "homePageThumb": "/img/projects/XololitosThumb.png",
+      "homePageThumb": "/img/projects/XololitosThumb.jpg",
       "className": "xololitos-thumb",
       "longDescription": [
         "Xololitos, was a virtual pet that you could have installed in your desktop. This was first designed when Windows Vista and 7 had the hability to show Gadgets running on the desktop.",
@@ -62,7 +112,14 @@
           "src": "/img/projects/Xololitos/3.jpg"
         }
       ],
-      "state": "Unattended | Last updated 03/2012."
+      "state": "Unattended | Last updated 03/2012.",
+      "headerTechDesc": "This project was built using:",
+      "techDesc": [
+        {
+          "techOrFwork": "",
+          "desc": ""
+        }
+      ]
     }
   ]
 }
