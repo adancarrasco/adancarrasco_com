@@ -1,12 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+# adancarrasco_com
 
 ## How to use this Personal Website Template?
 
-* [Getting started](#updating-to-new-releases)
-* [Sending Feedback](#sending-feedback)
-* [Folder Structure](#folder-structure)
-* [Available Scripts](#available-scripts)
-  * [npm start](#npm-start)
+* [Getting started](#getting-started)
+* [TODO](#todo)
 
 ## Getting started
 
@@ -51,5 +48,3 @@ import 'moment/locale/es';
 moment.locale('fr');
 ```
  -->
-
-# adancarrasco_com
