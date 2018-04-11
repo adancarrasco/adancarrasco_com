@@ -82,8 +82,37 @@
       "headerTechDesc": "This project was built using:",
       "techDesc": [
         {
-          "techOrFwork": "",
-          "desc": ""
+          "techOrFwork": "AngularJS"
+        },
+        {
+          "techOrFwork": "Bootstrap"
+        },
+        {
+          "techOrFwork": "jQuery"
+        },
+        {
+          "techOrFwork": "JavaScript"
+        },
+        {
+          "techOrFwork": "ASP.NET"
+        },
+        {
+          "techOrFwork": "Entity Framework"
+        },
+        {
+          "techOrFwork": "SQL Server"
+        },
+        {
+          "techOrFwork": "Google Analytics"
+        },
+        {
+          "techOrFwork": "Responsive Design"
+        },
+        {
+          "techOrFwork": "Facebook SDK"
+        },
+        {
+          "techOrFwork": "PayPal SDK"
         }
       ]
     },
@@ -116,8 +145,31 @@
       "headerTechDesc": "This project was built using:",
       "techDesc": [
         {
-          "techOrFwork": "",
-          "desc": ""
+          "techOrFwork": "ASP.NET"
+        },
+        {
+          "techOrFwork": "Windows Presentation Foundation"
+        },
+        {
+          "techOrFwork": "MySQL"
+        },
+        {
+          "techOrFwork": "jQuery"
+        },
+        {
+          "techOrFwork": "Facebook SDK"
+        },
+        {
+          "techOrFwork": "Twitter SDK"
+        },
+        {
+          "techOrFwork": "PayPal SDK"
+        },
+        {
+          "techOrFwork": "Expression Blend"
+        },
+        {
+          "techOrFwork": "Expression Design"
         }
       ]
     }

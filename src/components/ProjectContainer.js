@@ -15,8 +15,10 @@ class Project extends React.Component {
     const {project} = this.state;
     const renderTechOrFworkDesc = (item, i) => (
       <Fragment key={i}>
-        <span className="tech-fwork-title">{item.techOrFwork}</span>
-        <p>{item.desc}</p>
+        <span className={item.desc ? 'tech-fwork-title' : ''}>
+          {item.techOrFwork}
+        </span>
+        {item.desc ? <p>{item.desc}</p> : ', '}
       </Fragment>
     );
     return (
@@ -36,7 +38,7 @@ class Project extends React.Component {
             </a>
           </div>
           <div className="project-tech-description">
-            <h5>How this project was created?</h5>
+            <h5>{project.headerTechDesc}</h5>
             {project.techDesc.map((item, i) => renderTechOrFworkDesc(item, i))}
           </div>
           <div className="project-screens-container">
