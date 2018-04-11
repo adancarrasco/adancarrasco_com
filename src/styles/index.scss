@@ -1,43 +1,27 @@
+@import 'theme.scss';
 /*GENERAL CLASSES AND STYLES*/
 a {
-  color: #ff7b45;
+  color: $links-color;
 }
 a:hover {
-  color: #d43f04;
+  color: $links-color-hover;
 }
-.left {
-  float: left;
-}
-.right {
-  float: right;
-}
-.inline-block {
-  display: inline-block;
-}
-.fixed {
-  position: fixed;
-}
-.absolute {
-  position: absolute;
-}
-.c-white {
-  color: #fff;
-}
+
 body {
-  font-family: 'Quattrocento Sans', 'Roboto', Arial, sans-serif;
-  font-size: 16px;
+  font-family: $body-font-family;
+  font-size: $body-font-size;
   line-height: 1.45;
   font-weight: 200;
-  color: rgb(85, 85, 85);
+  color: $body-color;
 }
 h1,
 h2,
 h3,
 h5 {
-  font-family: 'Merriweather';
+  font-family: $headlines-font-family;
 }
 h5 {
-  font-size: 1.15rem;
+  font-size: $h5-font-size;
 }
 ul {
   list-style: none;
@@ -47,7 +31,7 @@ ul {
 }
 header {
   height: 60px;
-  border-bottom: 1px solid #cfcfcf;
+  border-bottom: 1px solid $header-border-bottom-color;
 }
 i.fab {
   font-size: 1.2rem;
@@ -61,21 +45,21 @@ i.fab {
   opacity: 0;
   transform: translateY(10px);
   transition: transform 600ms, opacity 600ms;
-  border: 2px solid #ff7b45;
+  border: 2px solid $links-color;
   padding: 4px 12px;
   background-color: transparent;
-  color: #ff7a45;
+  color: $links-color;
   cursor: pointer;
   &:hover {
-    background-color: #ff7b45;
-    color: #fff;
+    background-color: $links-color;
+    color: $project-details-container-color;
     text-decoration: none;
   }
 }
 
 // Header
 .header {
-  background-color: #edeeef;
+  background-color: $header-background-color;
 }
 
 // Personal Details
@@ -92,7 +76,7 @@ i.fab {
 
 // Skills
 .skills-container {
-  background-color: #fdede4;
+  background-color: $alternate-background-color;
   padding: 30px 0 10px;
   .skills {
     margin: 10px 0 20px;
@@ -103,17 +87,11 @@ i.fab {
 .experience {
   padding: 30px 0 40px;
   .exp-wrapper {
-    h5 {
-      // color: #000;
-    }
     .exp-item {
       margin-bottom: 20px;
       .exp-details {
         .exp-location {
-          color: #2196f3;
-        }
-        .exp-company-link {
-          // transform: rotate(90deg);
+          color: $location-color;
         }
         .material-icons {
           vertical-align: middle;
@@ -129,7 +107,7 @@ i.fab {
 
 // My Motto
 .my-system {
-  background-color: #fdede4;
+  background-color: $alternate-background-color;
   padding: 30px 0;
 }
 
@@ -157,7 +135,7 @@ i.fab {
       margin: 0px 15px;
       .project-title,
       .project-desc {
-        color: #fff;
+        color: $project-details-container-color;
       }
       .project-details-opacity {
         background-color: #000;
@@ -223,7 +201,7 @@ i.fab {
       &:hover {
         background-color: #272727;
         text-decoration: none;
-        color: #fff;
+        color: $project-details-container-color;
       }
     }
   }
@@ -247,9 +225,9 @@ i.fab {
 }
 
 footer {
-  background-color: #26262a;
+  background-color: $contact-background-color;
   .contact-container {
-    color: #fff;
+    color: $contact-color;
   }
   .contact-get-in-touch {
     margin-left: 5%;
@@ -275,7 +253,7 @@ footer {
   padding: 18px 20px;
   background-color: #26262b;
   display: inline-block;
-  color: rgb(255, 255, 255);
+  color: $white-color;
   cursor: pointer;
 }
 nav {
@@ -316,8 +294,8 @@ nav {
   ul {
     li {
       padding: 9px 0;
-      border-bottom: 1px solid #e1e1e1;
-      color: #252525;
+      border-bottom: 1px solid $skills-border-color;
+      color: $skills-color;
       padding: 10px 20px;
       border: 1px solid;
       margin: 0 10px 15px 0;
@@ -332,14 +310,14 @@ nav {
     width: 83%;
     position: relative;
     h1 {
-      font-family: 'Quattrocento', Arial;
-      font-size: 2.2rem;
-      color: rgba(26, 26, 26, 0.9);
+      font-family: $project-definition-h1-font-family;
+      font-size: $project-definition-h1-font-size;
+      color: $project-definition-h1-color;
     }
     h3 {
-      font-family: 'Work Sans';
-      font-size: 1.5rem;
-      line-height: 2rem;
+      font-family: $project-definition-h3-font-family;
+      font-size: $project-definition-h3-font-size;
+      line-height: $project-definition-h3-line-height;
     }
     p {
       margin-top: 40px;
@@ -363,7 +341,7 @@ nav {
   }
   .project-image-container {
     text-align: center;
-    background-color: #f3f3f3;
+    background-color: $project-image-container-bg-color;
     padding: 30px 0;
     &:last-child {
       margin-bottom: 100px;
