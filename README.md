@@ -20,9 +20,10 @@ Every JSON has defined keys where you need to paste your information.
 
 ## TODO
 
-* Make it optional to fetch the data form a Firebase project.
-* Define variables in a theme.scss to customize fonts and colors.
+* Make it optional to fetch the data form a Firebase project
+* Define variables in a theme.scss to customize fonts and colors
 * If any of the JSON files are not defined just don't render the section
+* Add menu for mobile to navigate to sections
 
 <!-- ### Moment.js locales are missing
 
