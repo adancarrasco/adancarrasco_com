@@ -9,12 +9,18 @@ const PersonalDetails = props => {
       <section className="personal-details">
         <h3>Personal Details</h3>
         <div className="row">
-          <div className="col-lg-3 col-sm-6 col-xs-12">
+          <div className="col-lg-3 col-sm-6 col-xs-12 profile-pic-container">
             <img
               id="profile-pic"
               alt={personalDetails.profilePic.alt}
               src={personalDetails.profilePic.url}
               className="profile-pic"
+            />
+            <img
+              id="profile-pic-hover"
+              alt={personalDetails.profilePicHover.alt}
+              src={personalDetails.profilePicHover.url}
+              className="profile-pic-hover"
             />
           </div>
           <ul className="col-lg-3 col-sm-6 col-xs-12 personal-info">
