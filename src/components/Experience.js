@@ -46,7 +46,7 @@ class Experience extends React.Component {
               </div>
             </div>
           ))}
-          <h5>{additionalExperience.title}</h5>
+          <h5 className="exp-additional-experience">{additionalExperience.title}</h5>
           <p>{additionalExperience.text}</p>
         </div>
       </div>

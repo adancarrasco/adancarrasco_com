@@ -5,7 +5,7 @@ const Contact = props => (
     <div className="contact-container">
       <div className="container bg-black">
         <section className="contact relative">
-          <h2>Get in touch</h2>
+          <h3>Get in touch</h3>
           <div className="contact-get-in-touch">
             <p>
               Let's get in touch, you can find me in the following social
@@ -44,7 +44,9 @@ const Contact = props => (
               </li>
             </ul>
           </div>
-          <span className="made-in">&copy; 2018 Adán Carrasco. Made in CUU.</span>
+          <span className="made-in">
+            &copy; 2018 Adán Carrasco. Made in CUU.
+          </span>
         </section>
       </div>
     </div>

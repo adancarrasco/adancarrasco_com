@@ -6,7 +6,7 @@ class MyProjects extends React.Component {
     return (
       <div className="projects">
         <div className="container">
-          <h4>My Projects</h4>
+          <h3>My Projects</h3>
           <div className="projects-container">
             <div className="projects-container row">
               {this.props.projects.map(project => (
