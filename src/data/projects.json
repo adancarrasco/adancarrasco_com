@@ -17,7 +17,7 @@
         }
       ],
       "state": "Available for Android, Unattended | Last updated 04/2017.",
-      "headerTechDesc": "This project was built using:",
+      "headerTechDesc": "Technologies Used",
       "techDesc": [
         {
           "techOrFwork": "Ionic as Hybrid Framework",
@@ -79,7 +79,7 @@
         }
       ],
       "state": "Lost domain, Unattended | Last updated 06/2015.",
-      "headerTechDesc": "This project was built using:",
+      "headerTechDesc": "Technologies Used",
       "techDesc": [
         {
           "techOrFwork": "AngularJS"
@@ -142,7 +142,7 @@
         }
       ],
       "state": "Unattended | Last updated 03/2012.",
-      "headerTechDesc": "This project was built using:",
+      "headerTechDesc": "Technologies Used",
       "techDesc": [
         {
           "techOrFwork": "ASP.NET"
