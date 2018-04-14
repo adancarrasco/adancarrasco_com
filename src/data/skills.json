@@ -1,6 +1,9 @@
 {
   "skills": [
     {
+      "name": "Object Oriented JavaScript"
+    },
+    {
       "name": "React"
     },
     {
@@ -11,9 +14,6 @@
     },
     {
       "name": "React Native"
-    },
-    {
-      "name": "Object Oriented JavaScript"
     },
     {
       "name": "Design Patterns"

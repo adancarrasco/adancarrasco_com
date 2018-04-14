@@ -45,6 +45,16 @@ const PersonalDetails = props => {
           </div>
           <div className="col-xs-12 col-sm-12">
             {aboutMe.descBelowImage.map((item, i) => <p key={i}>{item}</p>)}
+            <p>
+              Do you like this template? You can{' '}
+              <a
+                href="https://github.com/adancarrasco/adancarrasco_com#fork-destination-box"
+                title="Fork this template"
+              >
+                fork it in GitHub
+              </a>{' '}
+              and customize it with your own colors and information.
+            </p>
           </div>
         </div>
       </section>

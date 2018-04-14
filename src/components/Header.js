@@ -13,6 +13,7 @@ const Header = props => (
       >
         ADÁN CARRASCO
       </a>
+      <span className="job-title">Senior Front-End Engineer</span>
       <nav>
         <ul>
           <li>{/* <a href="http://blog.adancarrasco.com">BLOG</a> */}</li>
