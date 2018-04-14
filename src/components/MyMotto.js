@@ -9,6 +9,12 @@ const MyMotto = props => (
         better, always teaching and learning from others. That's the way to
         continuous growth.
       </p>
+      {/* Polish and reconsider this 
+      <h5>Helping others</h5>
+      <p>
+        Something that makes me happy is inspiring and helping others to do what
+        they want to do but don't do because of fear or some other BUTS.
+      </p>*/}
     </div>
   </div>
 );
