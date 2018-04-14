@@ -9,6 +9,13 @@ const MyMotto = props => (
         better, always teaching and learning from others. That's the way to
         continuous growth.
       </p>
+      <div className="my-motto-quote-container">
+        <span className="my-motto-quote">
+          "An extraordinary life is all about daily, continuous improvements in
+          the areas that matter most."
+        </span>
+        <span>- Robin Sharma</span>
+      </div>
       {/* Polish and reconsider this 
       <h5>Helping others</h5>
       <p>
