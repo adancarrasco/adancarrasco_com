@@ -20,6 +20,15 @@ class Experience extends React.Component {
     }
   }
 
+  renderExperienceDesc(expDesc) {
+    expDesc.shift();
+    return (
+      <ul className="exp-bullets-container">
+        {expDesc.map((descItem, i) => <li key={i}>{expDesc[i]}</li>)}
+      </ul>
+    );
+  }
+
   render() {
     const {experience} = this.props.experience;
     const {additionalExperience} = this.props.experience;
@@ -30,13 +39,14 @@ class Experience extends React.Component {
           {experience.map(experienceItem => (
             <div className="exp-wrapper" key={experienceItem.period}>
               <div className="exp-item row">
-                <div className="exp-date-range col-sm-3">
+                <div className="exp-date-range col-sm-12 col-md-3 col-xl-2">
                   <h5>{experienceItem.company}</h5>
                   <span>{experienceItem.period}</span>
                 </div>
-                <div className="exp-details col-sm-8">
+                <div className="exp-details col-sm-12 col-md-9">
                   <h5>{experienceItem.jobTitle}</h5>
-                  <p>{experienceItem.description}</p>
+                  <p>{experienceItem.description[0]}</p>
+                  {this.renderExperienceDesc(experienceItem.description)}
                   <span className="exp-location">
                     <i className="material-icons">location_on</i>
                     {experienceItem.city}
@@ -46,7 +56,9 @@ class Experience extends React.Component {
               </div>
             </div>
           ))}
-          <h5 className="exp-additional-experience">{additionalExperience.title}</h5>
+          <h5 className="exp-additional-experience">
+            {additionalExperience.title}
+          </h5>
           <p>{additionalExperience.text}</p>
         </div>
       </div>

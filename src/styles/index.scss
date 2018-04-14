@@ -36,6 +36,9 @@ ul {
 header {
   height: 60px;
   border-bottom: 1px solid $header-border-bottom-color;
+  .job-title {
+    margin-left: 15px;
+  }
 }
 i.fab {
   font-size: 1.2rem;
@@ -108,10 +111,18 @@ i.fab {
   .exp-wrapper {
     .exp-item {
       margin-bottom: 30px;
+      padding-left: 45px;
       .exp-date-range {
         margin-bottom: 15px;
       }
       .exp-details {
+        ul.exp-bullets-container {
+          list-style-type: disc;
+          li {
+            display: list-item;
+            margin-bottom: 0.15rem;
+          }
+        }
         .exp-location {
           color: $location-color;
           font-size: 0.94rem;
@@ -256,6 +267,9 @@ i.fab {
       }
     }
   }
+  .experience .exp-wrapper .exp-item {
+    padding-left: 15px;
+  }
 }
 @media (max-width: 576px) {
   .projects .project-container .project-details-container .project-details {
@@ -265,6 +279,28 @@ i.fab {
     }
     .project-desc {
       font-size: 1.1rem;
+    }
+  }
+  .experience .exp-wrapper .exp-item {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .header.container {
+    padding-left: 0;
+    #myName {
+      padding: 18px 16px;
+    }
+    .job-title {
+      display: block;
+      position: absolute;
+      top: 19px;
+      right: 14px;
+      font-size: 0.95rem;
+    }
+    nav {
+      display: none;
     }
   }
 }
@@ -281,6 +317,12 @@ i.fab {
       position: absolute;
       right: 20px;
       bottom: -40px;
+      font-size: 0.9rem;
+    }
+    .build-with {
+      position: absolute;
+      bottom: -40px;
+      font-family: 'Work Sans';
       font-size: 0.9rem;
     }
   }
