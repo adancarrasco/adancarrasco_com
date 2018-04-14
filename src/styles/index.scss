@@ -147,6 +147,12 @@ i.fab {
 .my-system {
   background-color: $alternate-background-color;
   padding: 30px 0;
+  .my-motto-quote-container {
+    font-style: italic;
+    .my-motto-quote {
+      margin-right: 10px;
+    }
+  }
 }
 
 // My Projects
@@ -241,66 +247,6 @@ i.fab {
         text-decoration: none;
         color: $project-details-container-color;
       }
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  .projects .project-container .project-details-container {
-    .project-details-opacity {
-      opacity: 0.75;
-    }
-    .project-details {
-      top: 35px;
-      .project-title,
-      .project-desc,
-      .view-project {
-        opacity: 1;
-      }
-      .project-title {
-        font-size: 1.32rem;
-      }
-      .view-project {
-        bottom: 10px;
-        background-color: $links-color;
-        color: $project-details-container-color;
-      }
-    }
-  }
-  .experience .exp-wrapper .exp-item {
-    padding-left: 15px;
-  }
-}
-@media (max-width: 576px) {
-  .projects .project-container .project-details-container .project-details {
-    top: 65px;
-    .project-title {
-      font-size: 1.7rem;
-    }
-    .project-desc {
-      font-size: 1.1rem;
-    }
-  }
-  .experience .exp-wrapper .exp-item {
-    padding-left: 0;
-  }
-}
-
-@media (max-width: 360px) {
-  .header.container {
-    padding-left: 0;
-    #myName {
-      padding: 18px 16px;
-    }
-    .job-title {
-      display: block;
-      position: absolute;
-      top: 19px;
-      right: 14px;
-      font-size: 0.95rem;
-    }
-    nav {
-      display: none;
     }
   }
 }
@@ -452,5 +398,68 @@ nav {
     &:last-child {
       margin-bottom: 100px;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .projects .project-container .project-details-container {
+    .project-details-opacity {
+      opacity: 0.75;
+    }
+    .project-details {
+      top: 35px;
+      .project-title,
+      .project-desc,
+      .view-project {
+        opacity: 1;
+      }
+      .project-title {
+        font-size: 1.32rem;
+      }
+      .view-project {
+        bottom: 10px;
+        background-color: $links-color;
+        color: $project-details-container-color;
+      }
+    }
+  }
+  .experience .exp-wrapper .exp-item {
+    padding-left: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .projects .project-container .project-details-container .project-details {
+    top: 65px;
+    .project-title {
+      font-size: 1.7rem;
+    }
+    .project-desc {
+      font-size: 1.1rem;
+    }
+  }
+  .experience .exp-wrapper .exp-item {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .header.container {
+    padding-left: 0;
+    #myName {
+      padding: 18px 16px;
+    }
+    .job-title {
+      display: block;
+      position: absolute;
+      top: 19px;
+      right: 14px;
+      font-size: 0.95rem;
+    }
+    nav {
+      display: none;
+    }
+  }
+  .contact-container .contact .made-in {
+    bottom: -80px;
   }
 }
