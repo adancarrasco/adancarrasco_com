@@ -62,7 +62,7 @@ const Contact = props => (
             and{' '}
             <a title="Sass" href="http://sass-lang.com/">
               Sass
-            </a>
+            </a>.
           </span>
           <span className="made-in">
             &copy; 2018 Adán Carrasco. Made in CUU.
