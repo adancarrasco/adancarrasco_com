@@ -7,14 +7,11 @@ const Contact = props => (
         <section className="contact relative">
           <h3>Get in touch</h3>
           <div className="contact-get-in-touch">
-            <p>
-              Let's get in touch, you can find me in the following social
-              networks.
-            </p>
+            <p>Let's get in touch, you can find me in the following places.</p>
             <ul className="social-links">
               <li>
                 <a
-                  href="http://twitter.com/adancarrasco"
+                  href="https://twitter.com/adancarrasco"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Find me on Twitter."
@@ -24,7 +21,7 @@ const Contact = props => (
               </li>
               <li>
                 <a
-                  href="http://mx.linkedin.com/in/adancarrasco/en"
+                  href="https://mx.linkedin.com/in/adancarrasco/en"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Find me on LinkedIn."
@@ -34,7 +31,7 @@ const Contact = props => (
               </li>
               <li>
                 <a
-                  href="http://instagram.com/adancarrasco"
+                  href="https://instagram.com/adancarrasco"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Find me on Instagram."
@@ -42,8 +39,31 @@ const Contact = props => (
                   <i className="fab fa-instagram" />
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://github.com/adancarrasco"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Find me on GitHub."
+                >
+                  <i className="fab fa-github" />
+                </a>
+              </li>
             </ul>
           </div>
+          <span className="build-with">
+            Built with{' '}
+            <a title="React" href="http://reactjs.org/">
+              React
+            </a>,{' '}
+            <a title="Webpack" href="http://webpack.js.org/">
+              Webpack
+            </a>{' '}
+            and{' '}
+            <a title="Sass" href="http://sass-lang.com/">
+              Sass
+            </a>
+          </span>
           <span className="made-in">
             &copy; 2018 Adán Carrasco. Made in CUU.
           </span>
