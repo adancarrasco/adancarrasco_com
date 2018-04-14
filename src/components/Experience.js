@@ -21,7 +21,6 @@ class Experience extends React.Component {
   }
 
   renderExperienceDesc(expDesc) {
-    expDesc.shift();
     return (
       <ul className="exp-bullets-container">
         {expDesc.map((descItem, i) => <li key={i}>{expDesc[i]}</li>)}
@@ -45,8 +44,8 @@ class Experience extends React.Component {
                 </div>
                 <div className="exp-details col-sm-12 col-md-9">
                   <h5>{experienceItem.jobTitle}</h5>
-                  <p>{experienceItem.description[0]}</p>
-                  {this.renderExperienceDesc(experienceItem.description)}
+                  <p>{experienceItem.description}</p>
+                  {this.renderExperienceDesc(experienceItem.descThumbs)}
                   <span className="exp-location">
                     <i className="material-icons">location_on</i>
                     {experienceItem.city}
