@@ -49,6 +49,16 @@ const Contact = props => (
                   <i className="fab fa-github" />
                 </a>
               </li>
+              <li>
+                <a
+                  href="http://adancarrasco.com/Resume_AdanCarrasco_2018.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Resume PDF."
+                >
+                  <i className="fa fa-file-pdf" />
+                </a>
+              </li>
             </ul>
           </div>
           <span className="build-with">
