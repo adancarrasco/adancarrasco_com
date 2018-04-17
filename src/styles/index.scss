@@ -91,6 +91,7 @@ i.fab {
       position: absolute;
       top: 0;
       width: 90%;
+      filter: grayscale(100%);
     }
     &:hover {
       .profile-pic-hover {
