@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Header';
+import {Header} from './Header';
 
 const NotFound = () => (
   <div>
@@ -8,4 +8,4 @@ const NotFound = () => (
   </div>
 );
 
-export default NotFound;
+export {NotFound};

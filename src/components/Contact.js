@@ -83,4 +83,4 @@ const Contact = props => (
   </footer>
 );
 
-export default Contact;
+export {Contact};

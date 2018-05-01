@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from './Project';
+import {Project} from './';
 
 class MyProjects extends React.Component {
   render() {
@@ -32,4 +32,4 @@ class MyProjects extends React.Component {
   }
 }
 
-export default MyProjects;
+export {MyProjects};

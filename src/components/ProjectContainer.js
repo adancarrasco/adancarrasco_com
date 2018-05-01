@@ -1,10 +1,9 @@
 import React, {Fragment} from 'react';
-import Header from './Header';
 
 import projectsData from '../data/projects.json';
-import Contact from './Contact';
+import {Contact, Header} from './';
 
-class Project extends React.Component {
+class ProjectContainer extends React.Component {
   componentWillMount() {
     const project = projectsData.projects.find(
       project => project.id === this.props.match.params.projectId
@@ -56,4 +55,4 @@ class Project extends React.Component {
   }
 }
 
-export default Project;
+export {ProjectContainer};

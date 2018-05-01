@@ -3,13 +3,16 @@ import experienceData from './data/experience.json';
 import skillsData from './data/skills.json';
 import projectsData from './data/projects.json';
 import './App.css';
-import Header from './components/Header';
-import PersonalDetails from './components/PersonalDetails';
-import Skills from './components/Skills';
-import Experience from './components/Experience';
-import MyMotto from './components/MyMotto';
-import MyProjects from './components/MyProjects';
-import Contact from './components/Contact';
+import {
+  Header,
+  PersonalDetails,
+  Skills,
+  Experience,
+  MyMotto,
+  MyProjects,
+  Contact,
+  VolunteerSection,
+} from './components';
 
 class App extends Component {
   state = {
@@ -29,6 +32,7 @@ class App extends Component {
           projects={this.state.projectsItems}
           history={this.props.history}
         />
+        <VolunteerSection />
         <Contact />
       </Fragment>
     );

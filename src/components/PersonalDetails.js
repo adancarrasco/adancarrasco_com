@@ -62,4 +62,4 @@ const PersonalDetails = props => {
   );
 };
 
-export default PersonalDetails;
+export {PersonalDetails};

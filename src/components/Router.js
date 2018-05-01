@@ -1,8 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import App from '../App';
-import ProjectContainer from './ProjectContainer';
-import NotFound from './NotFound';
+import {ProjectContainer, NotFound} from './';
 
 const Router = () => (
   <BrowserRouter onUpdate={() => window.scrollTo(0, 0)}>

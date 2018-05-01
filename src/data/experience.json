@@ -14,10 +14,11 @@
       "description":
         "Developing and giving support to some of the Data Visualization Web App features (rendering and logic with Object Oriented JavaScript).",
       "descThumbs": [
-        "Communicating different components with events using the Pub/Sub pattern with Object Oriented JavaScript.",
+        "Creating Web components with lifecycle using Object Oriented JavaScript, same as React.",
+        "Implementing Undo/Redo functionality using Memento Design Pattern with Object Oriented JavaScript. Similar to Redux.",
+        "Communicating different components with events using the Pub/Sub pattern with Object Oriented JavaScript. Similar to Redux.",
         "Leading and doing Code Reviews to a couple of new members, guiding them on the development process.",
         "Developing Functional Tests with Selenium Framework in Java.",
-        "Implementing Undo/Redo functionality using Memento Design Pattern with Object Oriented JavaScript.",
         "Consuming REST APIs from the client side and giving support to them using Java.",
         "Styling the components and Web Application using Sass."
       ],

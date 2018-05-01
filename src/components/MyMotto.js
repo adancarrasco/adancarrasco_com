@@ -26,4 +26,4 @@ const MyMotto = props => (
   </div>
 );
 
-export default MyMotto;
+export {MyMotto};
