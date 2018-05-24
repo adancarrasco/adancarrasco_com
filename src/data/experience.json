@@ -12,15 +12,13 @@
       "website": "http://oracle.com",
       "jobTitle": "Senior Front-End Engineer",
       "description":
-        "Developing and giving support to some of the Data Visualization Web App features (rendering and logic with Object Oriented JavaScript).",
+        "Developing Oracle Data Visualization suite, Web and Desktop App to visualize and transform data from several types of Databases as well as data from Oracle Cloud (rendering and logic with Object Oriented JavaScript).",
       "descThumbs": [
-        "Creating Web components with lifecycle using Object Oriented JavaScript, same as React.",
-        "Implementing Undo/Redo functionality using Memento Design Pattern with Object Oriented JavaScript. Similar to Redux.",
-        "Communicating different components with events using the Pub/Sub pattern with Object Oriented JavaScript. Similar to Redux.",
-        "Leading and doing Code Reviews to a couple of new members, guiding them on the development process.",
-        "Developing Functional Tests with Selenium Framework in Java.",
-        "Consuming REST APIs from the client side and giving support to them using Java.",
-        "Styling the components and Web Application using Sass."
+        "Creating Web components with JavaScript using an internal Framework; components lifecycle similar to React",
+        "Implementing undo/redo functionality using Memento Design Pattern to manage the state. Similar to Redux",
+        "Communicating different components with events using the Pub/Sub pattern with JavaScript. Same as Redux",
+        "Learned Selenium Framework using Java for functional tests creation to assure correctness of already implemented features and improve future application maintainability",
+        "Leading and doing Code Reviews to a couple of new members, guiding them on the development process"
       ],
       "anchors": [
         {
@@ -38,11 +36,12 @@
       "website": "http://oracle.com",
       "jobTitle": "Front-End Engineer",
       "description":
-        "Developed and designed the Plugins Gallery Website for Oracle BIMAD. Created plugin graphs using D3.",
+        "Developed and designed the Plugins Gallery Website for Oracle BIMAD, a Web application to create Data Visualizations using plugins build with JavaScript primarily with D3.",
       "descThumbs": [
-        "Created Waterfall chart plugin with D3, Grunt as Package Manager and Less as CSS preprocessor.",
-        "Developed the Plugins Gallery Website with AngularJS requesting the plugins' data from GitHub.com.",
-        "Integrated filters to Oracle Data Visualization Mobile Web App using Object Oriented JavaScript."
+        "Created Waterfall chart plugin with D3, Grunt as Package Manager and Less as CSS preprocessor",
+        "Developed the Plugins Gallery Website with AngularJS requesting the plugins' data from GitHub.com",
+        "Integrated filters to Oracle Data Visualization Mobile Web App using Object Oriented JavaScript",
+        "Worked remotely in cross-functional teams, of up to 10 people, distributed across 5 different time zones (from the US, India and Japan) on 3 projects in parallel"
       ],
       "anchors": [
         {
@@ -71,10 +70,10 @@
       "website": "http://esurance.com",
       "jobTitle": "Mobile Web Developer",
       "description":
-        "Developed the Mobile Web App (using ASP.NET and JavaScript).",
+        "Esurance is an assurance company, working on the Mobile Web App (using ASP.NET and JavaScript).",
       "descThumbs": [
-        "Gave support to renew policies for cars and motorcycles section using JavaScript for the Front-End and ASP.NET for the backend.",
-        "Created an internal tool to track the Team work progress with the MEAN stack."
+        "Gave support and developed renew policies for cars and motorcycles section using JavaScript for the Front-End and ASP.NET for the backend",
+        "Created an internal tool to track the Team work progress with the MEAN stack"
       ]
     },
     {
@@ -84,7 +83,7 @@
       "website": "http://univision.com",
       "jobTitle": "Front-End Developer",
       "description":
-        "Gave ideas for the creation of the responsive design for Univision’s News site.",
+        "Univision a media and entertainment company, worked on the Website, gave ideas for the creation of the responsive design for Univision’s News site",
       "descThumbs": [
         "Decision making in Miami Univision’s offices related to responsive design and widget creation for Univision’s core site.",
         "Developed Score Table for the World Cup 2014 Univision's site using AngularJS.",
@@ -114,12 +113,11 @@
       "city": "Chihuahua, México",
       "jobTitle": "Co-Founder, Developer",
       "description":
-        "Developed desktop applications (using WPF and SQL Server Databases) and websites (using ASP.NET 3.5 with MySQL Databases).",
+        "Developed websites (using ASP.NET 3.5 with MySQL and SQL Server Databases)",
       "descThumbs": [
-        "Advised and consulted on website design of clients’ websites.",
-        "Helped and advised colleagues on all aspects of website application projects.",
-        "Developed client’s websites using HTML5, CSS3, JavaScript and jQuery.",
-        "Developed and managed systems using SQL Server 2008, Visual Studio 2008, WPF and Crystal Reports."
+        "Advised and consulted on website design of clients’ websites",
+        "Helped and advised colleagues on all aspects of website application projects",
+        "Developed client’s websites using HTML5, CSS3, JavaScript and jQuery"
       ]
     }
   ]
