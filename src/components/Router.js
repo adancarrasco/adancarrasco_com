@@ -4,7 +4,7 @@ import App from '../App';
 import {ProjectContainer, NotFound} from './';
 
 const Router = () => (
-  <BrowserRouter onUpdate={() => window.scrollTo(0, 0)}>
+  <BrowserRouter basename={process.env.PUBLIC_URL} onUpdate={() => window.scrollTo(0, 0)}>
     <Switch>
       <Route exact path="/" component={App} />
       <Route path="/project/:projectId" component={ProjectContainer} />
