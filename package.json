@@ -2,7 +2,7 @@
   "name": "adancarrasco.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/adancarrasco/adancarrasco_com",
+  "homepage": "https://adancarrasco.github.io/adancarrasco_com/",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
