@@ -52,7 +52,7 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react-router-dom": "^4.2.2",
     "sass-loader": "^6.0.7"
   },
